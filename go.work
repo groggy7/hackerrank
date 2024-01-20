@@ -3,4 +3,6 @@ go 1.21.6
 use (
     "./Divisible sum pairs"
     "./Migratory birds"
+    "./Bill division"
+    "./Sales by match"
 )
