@@ -8,10 +8,9 @@ func sockMerchant(n int32, ar []int32) int32 {
 
 	for _, color := range ar {
 		mapOfColors[color]++
-	}
-
-	for _, count := range mapOfColors {
-		counter += count / 2
+		if mapOfColors[color]%2 == 0 {
+			counter++
+		}
 	}
 
 	return counter
